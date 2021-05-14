@@ -1,0 +1,18 @@
+.dp-card-props {
+    list-style: disc;
+    width: 100%;
+    padding-left: 20px;
+  
+}
+
+.dp-library .dp-card-props p{
+    text-align: left;
+}
+
+.dp-library .dp-align-center {
+    flex-wrap: wrap;
+}
+.dp-library .dp-align-center .dp-card {
+    min-width: 240px;
+    max-width: 275px;
+}
