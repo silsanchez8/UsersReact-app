@@ -14,9 +14,9 @@ function Header() {
                 <nav className="nav-left-main">
                     <div className="menu-main--container">
                         <ul className="menu-main">
-                            <li><a href="#">Alta de Usuarios</a></li>
+                            <li><a href="/users/new">Alta de Usuarios</a></li>
                             <li><a href="#">Modificación</a></li>
-                            <li><a href="#">Listado</a></li>
+                            <li><a href="/users">Listado</a></li>
                         </ul>
                     </div>
                 </nav>
