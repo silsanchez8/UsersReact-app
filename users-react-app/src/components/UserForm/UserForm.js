@@ -36,16 +36,16 @@ class UserForm extends React.Component {
                     <legend>Completa el siguiente formulario de alta de Usuarios</legend>
                     <ul className="field-group">
                         <li className="field-item">
-                            <label for="name">Nombre:</label>
+                            <label htmlFor="name">Nombre:</label>
                             <input type="text" onChange={this.props.onChange} name="name" id="name" placeholder="Nombre" value={this.props.formValues.name} /></li>
                         <li className="field-item">
-                            <label for="age">Edad:</label>
+                            <label htmlFor="age">Edad:</label>
                             <input type="text" onChange={this.props.onChange} name="age" id="age" placeholder="Edad" value={this.props.formValues.age} /></li>
                         <li className="field-item">
-                            <label for="rol">rol:</label>
+                            <label htmlFor="rol">rol:</label>
                             <input type="text" onChange={this.props.onChange} name="rol" id="rol" placeholder="Rol" value={this.props.formValues.rol}/></li>
                         <li className="field-item">
-                            <label for="email">Email:</label>
+                            <label htmlFor="email">Email:</label>
                             <input type="email" onChange={this.props.onChange} name="email" id="email" placeholder="Email" value={this.props.formValues.email} /></li>
                     </ul>
 

@@ -9,8 +9,8 @@ import '../../styles/card.css';
 class Card extends React.Component {
     render(){
         return(
-            <div class="dp-card dp-highlighthed">
-            <div class="dp-ribbon dp-ribbon-top-right">
+            <div className="dp-card dp-highlighthed">
+            <div className="dp-ribbon dp-ribbon-top-right">
                 <span>Nuevo usuario</span>
             </div>
             <ul className="dp-card-props">
