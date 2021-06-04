@@ -23,7 +23,7 @@ class NewUser extends React.Component {
     }
     render() {
         return (
-            <React.Fragment>
+            <>
                 <div className="container dp-rowflex p-t-54 p-b-54">
                     <section className="col-sm-6">
                         <article>
@@ -38,10 +38,9 @@ class NewUser extends React.Component {
                         </article>
                     </section>
                 </div>
-            </React.Fragment>
+            </>
         );
     }
 
 }
-
 export default NewUser;

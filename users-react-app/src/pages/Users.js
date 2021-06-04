@@ -53,7 +53,7 @@ class Users extends React.Component {
     render() {
         console.log('2.render');
         return (
-            <React.Fragment>
+            <>
             <div className="container m-t-48">
                 <h2>Listado de Usuarios</h2>
                 <Link to='/users/new' type="button" className="dp-button button-medium primary-green">Añadir usuario</Link>
@@ -66,7 +66,7 @@ class Users extends React.Component {
 
                 </ul>
             </div>
-            </React.Fragment>
+            </>
         );
     }
 };
