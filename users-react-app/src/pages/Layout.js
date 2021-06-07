@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header/Header";
 
-const Layout = (props) => {
+export const Layout = (props) => {
   return (
     <>
       <Header />
@@ -9,4 +9,4 @@ const Layout = (props) => {
     </>
   );
 };
-export default Layout;
+

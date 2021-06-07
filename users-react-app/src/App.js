@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import NewUser from "./pages/NewUser";
 import Users from "./pages/Users";
-import Layout from "./pages/Layout";
+import {Layout} from "./pages/Layout";
 import NotFound from "./pages/NotFound";
 import WelcomeMessage from "./pages/WelcomeMessage";
 import "./App.css";
