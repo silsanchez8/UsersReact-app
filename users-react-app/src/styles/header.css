@@ -1,10 +1,10 @@
 .header-container {
-    display: flex;
-    align-items: baseline;
-    padding: 10px 30px;
+  display: flex;
+  align-items: baseline;
+  padding: 10px 30px;
 }
-.header-container .title{
-    padding: 0 10px;
-    text-transform: uppercase;
-    font-weight: normal;
+.header-container .title {
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-weight: normal;
 }

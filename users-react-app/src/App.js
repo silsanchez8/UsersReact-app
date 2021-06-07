@@ -1,16 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import logo from './logo.svg';
-import UsersNew from './pages/UsersNew';
-import Header from './components/Header/Header';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import NewUser from "./pages/NewUser";
+import Users from "./pages/Users";
+import {Layout} from "./pages/Layout";
+import NotFound from "./pages/NotFound";
+import WelcomeMessage from "./pages/WelcomeMessage";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-       <Header></Header>
-      <UsersNew />
-    </div>
+    <Layout>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={WelcomeMessage} />
+          <Route exact path="/users/new" component={NewUser} />
+          <Route exact path="/users" component={Users} />
+          <Route component={NotFound} />
+        </Switch>
+      </BrowserRouter>
+    </Layout>
   );
 }
 
